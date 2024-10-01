@@ -1,0 +1,183 @@
+
+Table STUDENTS created.
+
+
+Table COURSES created.
+
+
+Table ENROLLMENTS created.
+
+
+Table ENROLLMENTS dropped.
+
+
+Table ENROLLMENTS created.
+
+
+Table INSTRUCTORS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 29 in command -
+insert into students values (3,'shema','arsene',22)
+Error report -
+ORA-00001: unique constraint (ASSIGNMENT.SYS_C007462) violated
+
+
+Error starting at line : 29 in command -
+insert into students values (3,'shema','arsene',22)
+Error report -
+ORA-00001: unique constraint (ASSIGNMENT.SYS_C007462) violated
+
+
+Error starting at line : 29 in command -
+insert into students values(3,'shema','arsene',22)
+Error report -
+ORA-00001: unique constraint (ASSIGNMENT.SYS_C007462) violated
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 36 in command -
+insert into enrollments values(22,2,2)
+Error report -
+ORA-02291: integrity constraint (ASSIGNMENT.SYS_C007468) violated - parent key not found
+
+
+Error starting at line : 36 in command -
+insert into enrollments values(24,2,2)
+Error report -
+ORA-02291: integrity constraint (ASSIGNMENT.SYS_C007468) violated - parent key not found
+
+
+Error starting at line : 36 in command -
+insert into enrollments values(24,2,3)
+Error report -
+ORA-02291: integrity constraint (ASSIGNMENT.SYS_C007468) violated - parent key not found
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 38 in command -
+insert into enrollments values(24,2,10)
+Error report -
+ORA-02291: integrity constraint (ASSIGNMENT.SYS_C007468) violated - parent key not found
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 43 in command -
+insert into instructors values(12,'kwibuka','egide'0788202340,5)
+Error at Command Line : 43 Column : 52
+Error report -
+SQL Error: ORA-00917: missing comma
+00917. 00000 -  "missing comma"
+*Cause:    
+*Action:
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 41 in command -
+insert into courses values(10,'software testing',3)
+Error report -
+ORA-00001: unique constraint (ASSIGNMENT.SYS_C007463) violated
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Error starting at line : 49 in command -
+insert into enrollments values(21,1,1)
+Error report -
+ORA-00001: unique constraint (ASSIGNMENT.SYS_C007467) violated
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+Error starting at line : 70 in command -
+DELETE FROM courses WHERE course_id = 2
+Error report -
+ORA-02292: integrity constraint (ASSIGNMENT.SYS_C007471) violated - child record found
+
+
+Table STUDENTS altered.
+
